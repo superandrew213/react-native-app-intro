@@ -388,6 +388,7 @@ AppIntro.propTypes = {
   showSkipButton: PropTypes.bool,
   showDoneButton: PropTypes.bool,
   showDots: PropTypes.bool,
+  textStyle: View.propTypes.style,
 };
 
 AppIntro.defaultProps = {
@@ -406,5 +407,6 @@ AppIntro.defaultProps = {
   defaultIndex: 0,
   showSkipButton: true,
   showDoneButton: true,
-  showDots: true
+  showDots: true,
+  textStyle: {}
 };
